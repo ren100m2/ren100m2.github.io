@@ -1,0 +1,50 @@
+/* Global CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none; /* Add outline: none to remove default outline for all elements */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Your button styles */
+.btn-primary {
+  background-color: rgb(82, 82, 82);
+  border-color: rgb(82, 82, 82);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: rgb(41, 41, 41);
+  color: rgb(197, 195, 195);
+  border-color: rgb(41,41,41);
+}
+
+.btn-primary:focus {
+  background-color: rgb(82, 82, 82) !important;
+  border-color: rgb(19, 19, 19) !important;
+  box-shadow: none !important;
+}
+  
+  
+
+.centered-container {
+  position: relative;
+  height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
