@@ -28,8 +28,23 @@ button:focus {
   border-color: rgb(19, 19, 19) !important;
   box-shadow: none !important;
 }
-  
-  
+
+/* Accordion styles */
+.accordion-button {
+  background-color: #f8f9fa; /* Very light gray shade */
+  color: black;
+  border: 1px solid lightgrey; /* Thinner and lighter border */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: lightgrey; /* Light gray shade when expanded */
+  color: black;
+  border: 1px solid lightgrey; /* Thinner and lighter border */
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(128, 128, 128, 0.5);
+}
 
 .centered-container {
   position: relative;
